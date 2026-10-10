@@ -1,0 +1,42 @@
+{
+ "codes": [
+  "Component misalignment / skewed",
+  "Conformal coating excessive",
+  "Conformal coating insufficient",
+  "Contamination",
+  "Continuity Test Failure",
+  "Cool Down Test Failure",
+  "Delamination (layer separation)",
+  "Disturbed solder joint (moved during cooling)",
+  "Excess solder / solder ball",
+  "Excessive Bonding",
+  "Excessive wire insulation clearance",
+  "F-crimp Defect",
+  "Flux residue (excessive / uncleaned)",
+  "Improper strain relief",
+  "Insufficient Bonding",
+  "Insufficient solder (starved joint)",
+  "Insufficient wire insulation clearance",
+  "Measling",
+  "Missing component",
+  "Nicked or scraped leads",
+  "Pad lifting / liftoff",
+  "Pin holes / blow holes",
+  "Programming Test Failure",
+  "Reversed polarity",
+  "Scratches exposing copper",
+  "Solder bridging between adjacent pads/leads",
+  "Solder splash / spatter",
+  "Tombstoning (component lifts on one end)",
+  "Torque Defect",
+  "Wire Brush Requirement Defect",
+  "Wrong component (incorrect part)"
+ ],
+ "rules": [
+  "Reversed polarity requires a location-specific marking (pin 1, +/-, silkscreen, cathode band/stripe, or a keying feature). A part that is only crooked, shifted, overhanging, or rotated on its pad is Component misalignment / skewed.",
+  "Billboarding (a chip part standing up on its side) is coded as Tombstoning (component lifts on one end).",
+  "Resistance (ohm) readings out of spec, opens, and shorts found in test are coded as Continuity Test Failure.",
+  "Torque problems are coded as Torque Defect, including fasteners that back off or move, damaged or galled threads, and torque that was not verified with a calibrated tool.",
+  "Entries that are not real defect descriptions, or are too vague to classify (for example 'assembly is bad'), get no code."
+ ]
+}
